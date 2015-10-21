@@ -1,0 +1,9 @@
+{
+	"name" : "newsFeed",
+	"description" : "load news from google news",
+	"icon" : "",
+	"type" : "visualization",
+	"version": "0.0.1",
+	"preview" : "newsfeed.png",
+	"author": "Loris Lombardo - Horsa"
+}

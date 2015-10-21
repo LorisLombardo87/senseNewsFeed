@@ -1,0 +1,7 @@
+/* Styles for newsFeed */
+
+/* Recommended pattern for styling your objects */
+.qv-object-newsfeed .hello-world {
+  color:#333;
+  font-weight:bold;
+}
