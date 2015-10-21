@@ -13,7 +13,7 @@ add the newsFeed folder to your local extension folder or zip it and load in the
 
 the extension need 3 parameter for working:
 
-the news query, could be a string or the result of an expression.
+the news query, could be a string or the result of an expression. it determinates the topic of your news feed, if blank shows the top stories.
 
 the news feed to take based on the region and language you want to display.
 
