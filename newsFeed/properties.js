@@ -46,6 +46,12 @@ define( [], function () {
 		type: "boolean",
 		defaultValue: true
 	};
+	var newsOpen = {
+		ref: "props.newsOpen",
+		label: "Open link in new window",
+		type: "boolean",
+		defaultValue: true
+	};
 
 	// ****************************************************************************************
 	// Property Panel Definition
@@ -60,7 +66,8 @@ define( [], function () {
 				items: {
 					newsQuery: newsQuery,
 					newsFeed: newsFeed,
-					newsLink: newsLink
+					newsLink: newsLink,
+					newsOpen:newsOpen
 				}
 			}
 		}

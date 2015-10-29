@@ -1,7 +1,7 @@
 <div qv-extension style = "height: 100%; overflow: auto;">
 	<h2>{{title}}</h2>
 	<div ng-repeat = "news in feed" style = "margin-top:10px;">
-		<h4 ng-if="layout.props.newsLink"><a href = "{{news.link}}" >{{news.title}}</a></h4>
+		<h4 ng-if="layout.props.newsLink"><a href = "{{news.link}}" target = "{{layout.props.newsOpen ? '_blank' : '_self'}}">{{news.title}}</a></h4>
 		<h4 ng-if="!layout.props.newsLink">{{news.title}}</h4>
 		<p ng-bind-html="news.contentSnippet"></p>
 	</div>
