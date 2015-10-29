@@ -18,3 +18,5 @@ the news query, could be a string or the result of an expression. it determinate
 the news feed to take based on the region and language you want to display.
 
 the link on titles flag, if checked clicking on news title redirects user to the news paper site for more details.
+
+the open link in new window flag which allows the user to choose whether their links open in a new window or in the current window.
