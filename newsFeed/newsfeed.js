@@ -34,7 +34,7 @@ function ($, angular, properties, initialProperties, extensionUtils, style, temp
                 $scope.title = 'Loading news...';
 
                 $.ajax({
-                    url: 'http://ajax.googleapis.com/ajax/services/feed/load?v=1.0&num=10&q=http%3A%2F%2Fnews.google.com'
+                    url: 'https://ajax.googleapis.com/ajax/services/feed/load?v=1.0&num=10&q=http%3A%2F%2Fnews.google.com'
                         +'%2Fnews%3Foutput%3Drss%26q%3D'+$scope.layout.props.queryfield+'%26ned%3D'+$scope.layout.props.newsFeed,
                     dataType: "jsonp",
                     success: function (data) {
